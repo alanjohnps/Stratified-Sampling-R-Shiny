@@ -1,0 +1,57 @@
+STRATIFIED SAMPLING ANALYSIS RESULTS
+====================================
+
+Date: 2025-12-16
+Desired Precision (d): 5
+Z-value: 1.96
+
+INPUT DATA:
+-----------
+
+Stratum 1:
+  Population (N): 1000
+  Variance (σ²): 100
+  Cost per unit: 10
+  Time per unit: 5
+
+Stratum 2:
+  Population (N): 1500
+  Variance (σ²): 200
+  Cost per unit: 15
+  Time per unit: 8
+
+Stratum 3:
+  Population (N): 2000
+  Variance (σ²): 150
+  Cost per unit: 12
+  Time per unit: 6
+
+
+ALLOCATION RESULTS:
+-------------------
+
+Proportional Allocation:
+  Stratum 1: 2 samples
+  Stratum 2: 3 samples
+  Stratum 3: 4 samples
+  Total: 9 samples
+  Total Cost: 113
+  Total Time: 58
+
+Neyman Allocation:
+  Stratum 1: 5 samples
+  Stratum 2: 9 samples
+  Stratum 3: 11 samples
+  Total: 25 samples
+  Total Cost: 317
+  Total Time: 163
+
+Optimised Allocation:
+  Stratum 1: 5 samples
+  Stratum 2: 9 samples
+  Stratum 3: 11 samples
+  Total: 25 samples
+  Total Cost: 317
+  Total Time: 163
+
+
